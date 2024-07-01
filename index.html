@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio _ Zhuravskii</title>
+  <link rel="stylesheet" href="/portfolio/css/normalize.css">
+  <link rel="stylesheet" href="/portfolio/css/styles.css">
+  <link rel="shortcut icon" href="/portfolio/icons/favicon.ico" type="image/x-icon">
+  <script defer src="/portfolio/js/flip-pages.js"></script>
+  <script defer src="/portfolio/js/flip-portfolio.js"></script>
+  <script defer src="/portfolio/js/get-viewport-height.js"></script>
+</head>
+<body class="body">
+  <!-- header -->
+  <header class="header">
+    <div class="container header__container">
+       <!-- header-nav -->
+       <ul class="header__header-nav">
+        <li class="header-nav__item">
+          <a href="#" class="header-nav__item-link" id="nav-link-1">
+            Главная
+          </a>
+        </li>
+        <li class="header-nav__item">
+          <a href="#" class="header-nav__item-link" id="nav-link-2">
+            Портфолио
+          </a>
+        </li>
+        <li class="header-nav__item">
+          <a href="#" class="header-nav__item-link" id="nav-link-3">
+            Контакты
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <!-- main -->
+  <main class="main">
+    <!-- section__main-content -->
+    <div class="container section__main-content">
+      <!-- main-content__personal-card -->
+      <div class="main-content__personal-card" data-name="content-page">
+        <!-- personal-card__name -->
+        <p class="personal-card__name">
+          Журавский Сергей
+        </p>
+        <!-- personal-card__profession -->
+        <p class="personal-card__profession">
+          Web developer
+        </p>
+        <!-- personal-card__profession-description -->
+        <p class="personal-card__profession-description">
+          Разработчик web приложений
+        </p>
+        <!-- personal-card__portfolio-btn -->
+        <div class="personal-card__portfolio-btn btn">
+          <span class="portfolio-btn__title">
+            Портфолио
+          </span>
+        </div>
+      </div>
+      <!-- main-content__portfolio -->
+      <div class="main-content__portfolio" data-name="content-page">
+
+        <!-- portfolio__portfolio-list_desktop --><!-- desktop (screen > 1050px) -->
+        <div class="portfolio__portfolio-list_desktop">
+          <!-- portfolio-item-1 -->
+          <div class="portfolio-list__portfolio-item_desktop">
+            <p class="portfolio-item__title">
+              #1. Интернет-магазин
+            </p>
+            <p class="portfolio-item__title-description">
+              (сайт создан на HTML, CSS, JS)
+            </p>
+            <img src="img/portfolio-1.png" class="portfolio-item__img" alt="Изображение сайта">
+            <a href="#" target="_blank" class="portfolio-item__portfolio-link-btn btn">
+              <span class="portfolio-link-btn__title">
+                Перейти на сайт
+              </span>
+            </a>
+          </div>
+          <!-- portfolio-item-2 -->
+          <div class="portfolio-list__portfolio-item_desktop">
+            <p class="portfolio-item__title">
+              #2. Макет интернет-магазина
+            </p>
+            <p class="portfolio-item__title-description">
+              (макет создан на Figma)
+            </p>
+            <img src="img/portfolio-2.png" class="portfolio-item__img" alt="Изображение сайта">
+            <a href="#" target="_blank" class="portfolio-item__portfolio-link-btn btn">
+              <span class="portfolio-link-btn__title">
+                Перейти на сайт
+              </span>
+            </a>
+          </div>
+          <!-- portfolio-item-3 -->
+          <div class="portfolio-list__portfolio-item_desktop">
+            <p class="portfolio-item__title">
+              #3. Интернет-магазин
+            </p>
+            <p class="portfolio-item__title-description">
+              (сайт создан на HTML, CSS, JS)
+            </p>
+            <img src="img/portfolio-3.png" class="portfolio-item__img" alt="Изображение сайта">
+            <a href="#" target="_blank" class="portfolio-item__portfolio-link-btn btn">
+              <span class="portfolio-link-btn__title">
+                Перейти на сайт
+              </span>
+            </a>
+          </div>
+          <!-- portfolio-item-4 -->
+          <div class="portfolio-list__portfolio-item_desktop">
+            <p class="portfolio-item__title">
+              #4. Сайт компании
+            </p>
+            <p class="portfolio-item__title-description">
+              (сайт создан на HTML, CSS, JS)
+            </p>
+            <img src="img/portfolio-4.png" class="portfolio-item__img" alt="Изображение сайта">
+            <a href="#" target="_blank" class="portfolio-item__portfolio-link-btn btn">
+              <span class="portfolio-link-btn__title">
+                Перейти на сайт
+              </span>
+            </a>
+          </div>
+          <!-- portfolio-item-5 -->
+          <div class="portfolio-list__portfolio-item_desktop">
+            <p class="portfolio-item__title">
+              #5. Макет сайта компании
+            </p>
+            <p class="portfolio-item__title-description">
+              (макет создан на Figma)
+            </p>
+            <img src="img/portfolio-5.png" class="portfolio-item__img" alt="Изображение сайта">
+            <a href="#" target="_blank" class="portfolio-item__portfolio-link-btn btn">
+              <span class="portfolio-link-btn__title">
+                Перейти на сайт
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- portfolio__portfolio-list_mobile --><!-- mobile (screen < 1049.98px) -->
+        <div class="portfolio__portfolio-list_mobile">
+          <!-- portfolio-item-1 -->
+          <div class="portfolio-list__portfolio-item_mobile" data-item="1">
+            <div class="portfolio-list__portfolio-item-container_mobile">
+              <p class="portfolio-item__title">
+                #1. Интернет-магазин
+              </p>
+              <p class="portfolio-item__title-description">
+                (сайт создан на HTML, CSS, JS)
+              </p>
+              <img src="img/portfolio-1.png" class="portfolio-item__img" alt="Изображение сайта">
+              <a href="#" target="_blank" class="portfolio-item__portfolio-link-btn btn">
+                <span class="portfolio-link-btn__title">
+                  Перейти на сайт
+                </span>
+              </a>
+            </div>
+          </div>
+          <!-- portfolio-item-2 -->
+          <div class="portfolio-list__portfolio-item_mobile" data-item="2">
+            <div class="portfolio-list__portfolio-item-container_mobile">
+              <p class="portfolio-item__title">
+                #2. Макет интернет-магазина
+              </p>
+              <p class="portfolio-item__title-description">
+                (макет создан на Figma)
+              </p>
+              <img src="img/portfolio-2.png" class="portfolio-item__img" alt="Изображение сайта">
+              <a href="#" target="_blank" class="portfolio-item__portfolio-link-btn btn">
+                <span class="portfolio-link-btn__title">
+                  Перейти на сайт
+                </span>
+              </a>
+            </div>
+          </div>
+          <!-- portfolio-item-3 -->
+          <div class="portfolio-list__portfolio-item_mobile" data-item="3">
+            <div class="portfolio-list__portfolio-item-container_mobile">
+              <p class="portfolio-item__title">
+                #3. Интернет-магазин
+              </p>
+              <p class="portfolio-item__title-description">
+                (сайт создан на HTML, CSS, JS)
+              </p>
+              <img src="img/portfolio-3.png" class="portfolio-item__img" alt="Изображение сайта">
+              <a href="#" target="_blank" class="portfolio-item__portfolio-link-btn btn">
+                <span class="portfolio-link-btn__title">
+                  Перейти на сайт
+                </span>
+              </a>
+            </div>
+          </div>
+          <!-- portfolio-item-4 -->
+          <div class="portfolio-list__portfolio-item_mobile" data-item="4">
+            <div class="portfolio-list__portfolio-item-container_mobile">
+              <p class="portfolio-item__title">
+                #4. Сайт компании
+              </p>
+              <p class="portfolio-item__title-description">
+                (сайт создан на HTML, CSS, JS)
+              </p>
+              <img src="img/portfolio-4.png" class="portfolio-item__img" alt="Изображение сайта">
+              <a href="#" target="_blank" class="portfolio-item__portfolio-link-btn btn">
+                <span class="portfolio-link-btn__title">
+                  Перейти на сайт
+                </span>
+              </a>
+            </div>
+          </div>
+          <!-- portfolio-item-5 -->
+          <div class="portfolio-list__portfolio-item_mobile" data-item="5">
+            <div class="portfolio-list__portfolio-item-container_mobile">
+              <p class="portfolio-item__title">
+                #5. Макет сайта компании
+              </p>
+              <p class="portfolio-item__title-description">
+                (макет создан на Figma)
+              </p>
+              <img src="img/portfolio-5.png" class="portfolio-item__img" alt="Изображение сайта">
+              <a href="#" target="_blank" class="portfolio-item__portfolio-link-btn btn">
+                <span class="portfolio-link-btn__title">
+                  Перейти на сайт
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- main-content__portfolio-btns-switching  -->
+        <div class="portfolio__btns-switching-container">
+          <div class="btns-switching__btn-previous btn-switching btn">
+            <svg width="225" height="251" viewBox="0 0 225 251" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.5 103.849L181.75 9.01958C198.417 -0.602921 219.25 11.4252 219.25 30.6702L219.25 220.33C219.25 239.575 198.417 251.603 181.75 241.98L17.5 147.151C0.833298 137.528 0.833313 113.472 17.5 103.849Z" stroke="none" stroke-width="12"/>
+            </svg>
+          </div>
+          <ul class="btns-switching__switching-position">
+            <li class="switching-position__item" data-position="1"></li>
+            <li class="switching-position__item" data-position="2"></li>
+            <li class="switching-position__item" data-position="3"></li>
+            <li class="switching-position__item" data-position="4"></li>
+            <li class="switching-position__item" data-position="5"></li>
+          </ul>
+          <div class="btns-switching__btn-next btn-switching btn">
+            <svg width="225" height="251" viewBox="0 0 225 251" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M207.5 147.151L43.25 241.98C26.5833 251.603 5.75 239.575 5.75 220.33V30.6702C5.75 11.4252 26.5833 -0.602925 43.25 9.01959L207.5 103.849C224.167 113.472 224.167 137.528 207.5 147.151Z" stroke="none" stroke-width="12"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- main-content__contacts -->
+      <div class="main-content__contacts" data-name="content-page">
+        <!-- <h1 class="item-heading">
+          Контакты
+        </h1> -->
+        <!-- main-content__contacts-container -->
+        <div class="main-content__contacts-container">
+          <!-- location -->
+          <div class="contacts__item">
+            <span class="contacts__item-icon">
+              <svg width="90" height="117" viewBox="0 0 90 117" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path class="link-icon_path-background" d="M89.6703 44.8352C89.6703 20 69.6703 0 44.8352 0C20 0 0 20 0 44.8352C0 69.6703 44.8352 116.044 44.8352 116.044C44.8352 116.044 89.6703 69.6703 89.6703 44.8352ZM23.956 43.956C23.956 32.5275 33.4066 23.0769 44.8352 23.0769C56.2637 23.0769 65.7143 32.3077 65.7143 43.956C65.7143 55.3846 56.4835 64.8352 44.8352 64.8352C33.4066 64.8352 23.956 55.3846 23.956 43.956Z" fill="none"/>
+              </svg>
+            </span>
+            <p class="contacts__item-link">
+              Россия, г. Санкт-Петербург
+            </p>
+          </div>
+          <!-- phone -->
+          <div class="contacts__item">
+            <span class="contacts__item-icon" id="icon-phone">
+              <svg width="142" height="142" viewBox="0 0 142 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M141.361 113.181L140.654 111.051C138.98 106.076 133.494 100.886 128.453 99.5192L109.797 94.4229C104.738 93.0465 97.5213 94.8972 93.8198 98.5984L87.0679 105.35C62.5302 98.7199 43.2888 79.4779 36.6673 54.9449L43.4194 48.1927C47.121 44.4912 48.9714 37.284 47.595 32.2249L42.5079 13.5599C41.1315 8.50999 35.9328 3.02321 30.9668 1.36768L28.8372 0.65166C23.8617 -1.00387 16.7658 0.670408 13.0646 4.37162L2.96476 14.4807C1.16043 16.2755 0.00724708 21.409 0.00724708 21.4278C-0.346 53.4938 12.2275 84.3879 34.9097 107.07C57.5362 129.697 88.3146 142.252 120.287 141.982C120.455 141.982 125.737 140.848 127.541 139.053L137.641 128.953C141.342 125.252 143.016 118.156 141.361 113.181Z" fill="none"/>
+              </svg>
+            </span>
+            <a href="tel:+89214263969" class="contacts__item-link" id="link-phone">
+              +7 (921) 426 39 69
+            </a>
+          </div>
+          <!-- email -->
+          <div class="contacts__item">
+            <span class="contacts__item-icon" id="icon-email">
+              <svg width="110" height="74" viewBox="0 0 110 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M109.286 65.1429V16.2857C109.286 16.2857 59.8858 50.7571 55.0815 52.5459C50.3586 50.8386 0.714355 16.2857 0.714355 16.2857V65.1429C0.714355 71.9286 2.15293 73.2857 8.85721 73.2857H101.143C108.007 73.2857 109.286 72.0941 109.286 65.1429ZM109.207 6.707C109.207 1.76428 107.766 0 101.143 0H8.85721C2.04436 0 0.714355 2.11714 0.714355 7.05714L0.795784 7.81714C0.795784 7.81714 49.8402 41.5829 55.0815 43.4286C60.6186 41.2843 109.286 7.05714 109.286 7.05714L109.207 6.707Z" fill="none"/>
+              </svg>
+            </span>
+            <a href="mailto:fun4passtime@gmail.com" class="contacts__item-link" id="link-email">
+              fun4pastime@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <p class="footer__privacy" title="Материалы, представленные в портфолио, являются результатом самостоятельной учебной работы при изучении курса вебразработки и носят исключительно информационный характер и являются частью общего вымышленного контента (любые совпадения с реальными лицами, проектами и с прочими обстоятельствами случайны)">
+        Zhuravskii Sergei. 2024
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
+
+<!-- Notice -->
+
+<!-- Данный сайт не является коммерческим проектом, а является результатом самостоятельной учебной работы при изучении курса вебразработки. Материалы, представленные на сайте, носят исключительно информационный характер и являются частью общего вымышленного контента (любые совпадения с реальными лицами, проектами и с прочими обстоятельствами случайны). -->
+
+<!-- Notice -->
