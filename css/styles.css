@@ -227,21 +227,7 @@ html {
   line-height: 100%;
   font-weight: 700;
   color: var(--green);
-  /* transition: color 0.1s; */
 }
-
-/* .personal-card__portfolio-btn:hover {
-  background-color: var(--green);
-} */
-
-/* .personal-card__portfolio-btn:hover span {
-  color: var(--background);
-} */
-
-/* .personal-card__portfolio-btn:active {
-  background-color: var(--dark-green);
-  outline-color: var(--dark-green);
-} */
 
 /* main-content__portfolio */
 
@@ -359,21 +345,7 @@ html {
   line-height: 100%;
   font-weight: 500;
   color: var(--green);
-  /* transition: color 0.1s; */
 }
-
-/* .portfolio-item__portfolio-link-btn:hover {
-  background-color: var(--green);
-} */
-
-/* .portfolio-item__portfolio-link-btn:hover span {
-  color: var(--background);
-} */
-
-/* .portfolio-item__portfolio-link-btn:active {
-  background-color: var(--dark-green);
-  outline-color: var(--dark-green);
-} */
 
 .portfolio__btns-switching-container {
   display: flex;
@@ -402,16 +374,6 @@ html {
   stroke: var(--green);
 }
 
-/* .btns-switching__btn-previous:hover > svg,
-.btns-switching__btn-next:hover > svg {
-  fill: var(--green);
-} */
-
-/* .btns-switching__btn-previous:active,
-.btns-switching__btn-next:active {
-  opacity: 0.8;
-} */
-
 .btns-switching__switching-position {
   display: flex;
   align-items: center;
@@ -426,7 +388,6 @@ html {
 .switching-position__item {
   width: 10px;
   height: 10px;
-  /* background-color: var(--white); */
   background-color: var(--background);
   outline: 1px solid var(--white);
   outline-offset: -1px;
@@ -498,7 +459,6 @@ html {
   line-height: 100%;
   font-weight: 500;
   color: var(--white);
-  /* transition: color 0.1s; */
 }
 
 #link-phone:hover,
