@@ -153,67 +153,67 @@ function showPositionInPortfolio(positionIndex) {
 
   if (positionIndex == 1) {
     positionItem1.style.backgroundColor = '#ffff00';
-    positionItem1.style.outlineColor = '#ffff00';
+    positionItem1.style.borderColor = '#ffff00';
     positionItem2.style.backgroundColor = '#000101';
-    positionItem2.style.outlineColor = '#ffffff';
+    positionItem2.style.borderColor = '#ffffff';
     positionItem3.style.backgroundColor = '#000101';
-    positionItem3.style.outlineColor = '#ffffff';
+    positionItem3.style.borderColor = '#ffffff';
     positionItem4.style.backgroundColor = '#000101';
-    positionItem4.style.outlineColor = '#ffffff';
+    positionItem4.style.borderColor = '#ffffff';
     positionItem5.style.backgroundColor = '#000101';
-    positionItem5.style.outlineColor = '#ffffff';
+    positionItem5.style.borderColor = '#ffffff';
   }
 
   if (positionIndex == 2) {
     positionItem1.style.backgroundColor = '#000101';
-    positionItem1.style.outlineColor = '#ffffff';
+    positionItem1.style.borderColor = '#ffffff';
     positionItem2.style.backgroundColor = '#ffff00';
-    positionItem2.style.outlineColor = '#ffff00';
+    positionItem2.style.borderColor = '#ffff00';
     positionItem3.style.backgroundColor = '#000101';
-    positionItem3.style.outlineColor = '#ffffff';
+    positionItem3.style.borderColor = '#ffffff';
     positionItem4.style.backgroundColor = '#000101';
-    positionItem4.style.outlineColor = '#ffffff';
+    positionItem4.style.borderColor = '#ffffff';
     positionItem5.style.backgroundColor = '#000101';
-    positionItem5.style.outlineColor = '#ffffff';
+    positionItem5.style.borderColor = '#ffffff';
   }
 
   if (positionIndex == 3) {
     positionItem1.style.backgroundColor = '#000101';
-    positionItem1.style.outlineColor = '#ffffff';
+    positionItem1.style.borderColor = '#ffffff';
     positionItem2.style.backgroundColor = '#000101';
-    positionItem2.style.outlineColor = '#ffffff';
+    positionItem2.style.borderColor = '#ffffff';
     positionItem3.style.backgroundColor = '#ffff00';
-    positionItem3.style.outlineColor = '#ffff00';
+    positionItem3.style.borderColor = '#ffff00';
     positionItem4.style.backgroundColor = '#000101';
-    positionItem4.style.outlineColor = '#ffffff';
+    positionItem4.style.borderColor = '#ffffff';
     positionItem5.style.backgroundColor = '#000101';
-    positionItem5.style.outlineColor = '#ffffff';
+    positionItem5.style.borderColor = '#ffffff';
   }
 
   if (positionIndex == 4) {
     positionItem1.style.backgroundColor = '#000101';
-    positionItem1.style.outlineColor = '#ffffff';
+    positionItem1.style.borderColor = '#ffffff';
     positionItem2.style.backgroundColor = '#000101';
-    positionItem2.style.outlineColor = '#ffffff';
+    positionItem2.style.borderColor = '#ffffff';
     positionItem3.style.backgroundColor = '#000101';
-    positionItem3.style.outlineColor = '#ffffff';
+    positionItem3.style.borderColor = '#ffffff';
     positionItem4.style.backgroundColor = '#ffff00';
-    positionItem4.style.outlineColor = '#ffff00';
+    positionItem4.style.borderColor = '#ffff00';
     positionItem5.style.backgroundColor = '#000101';
-    positionItem5.style.outlineColor = '#ffffff';
+    positionItem5.style.borderColor = '#ffffff';
   }
 
   if (positionIndex == 5) {
     positionItem1.style.backgroundColor = '#000101';
-    positionItem1.style.outlineColor = '#ffffff';
+    positionItem1.style.borderColor = '#ffffff';
     positionItem2.style.backgroundColor = '#000101';
-    positionItem2.style.outlineColor = '#ffffff';
+    positionItem2.style.borderColor = '#ffffff';
     positionItem3.style.backgroundColor = '#000101';
-    positionItem3.style.outlineColor = '#ffffff';
+    positionItem3.style.borderColor = '#ffffff';
     positionItem4.style.backgroundColor = '#000101';
-    positionItem4.style.outlineColor = '#ffffff';
+    positionItem4.style.borderColor = '#ffffff';
     positionItem5.style.backgroundColor = '#ffff00';
-    positionItem5.style.outlineColor = '#ffff00';
+    positionItem5.style.borderColor = '#ffff00';
   }
 
 }
